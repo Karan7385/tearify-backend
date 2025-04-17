@@ -8,7 +8,7 @@ const PORT = 3000;
 // Spotify credentials
 const clientId = '77e733a36daf4cc282b55d8a96befbeb';
 const clientSecret = '0ac9efff4e314706b041da0b70a0023f';
-const redirectUri = 'tearify://callback'; // This should match your app
+const redirectUri = 'https://tearify-backend.onrender.com/callback';
 
 // Middlewares
 app.use(cors());
